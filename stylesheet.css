@@ -15,8 +15,9 @@ body {
 
 .flex-container {
 display: flex;
-flex-wrap: no wrap;
+flex-wrap: wrap;
 flex-direction: row;
+justify-content: space-evenly;
 
 }
 
