@@ -27,7 +27,7 @@ flex: 1 1 250px;
   transition: transform 0.3s ease;
 }
 
-.view-more {
+.title {
   display: block;
   padding: 10px;
   background: #f0f0f0;
