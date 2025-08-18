@@ -8,17 +8,37 @@ body {
   background-color: #f4f4f4;
 }
 
-/* .container p {
-  line-height: 1.5;
-  margin: 0.5em 0; 
-} */
 
-.flex-container {
+.container {
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: space-evenly;
+}
 
+.box {
+flex: 1 1 250px;      
+  max-width: 300px;     
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;     
+  text-decoration: none; 
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.view-more {
+  display: block;
+  padding: 10px;
+  background: #f0f0f0;
+  text-align: center;
+  color: #0066cc;
+}
+
+.box img {
+width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
 h1 {
