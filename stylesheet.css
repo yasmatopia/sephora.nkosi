@@ -19,6 +19,14 @@ body {
             padding: 20px;
             position: relative;
 }
+.main-title {
+font-size: 8vw;
+            font-weight: 900;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
 .space {
             height: 100vh;
             background: linear-gradient(to bottom, #2575fc, #2c3e50);
