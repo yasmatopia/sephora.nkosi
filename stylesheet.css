@@ -27,11 +27,18 @@ font-size: 8vw;
             margin-bottom: 20px;
             text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
-.space {
+.space1 {
+  height: 350px;
+  width: 100%;
+        }
+.space2 {
   height: 700px;
   width: 100%;
         }
-
+.space3 {
+  height: 350px;
+  width: 100%;
+        }
 .container {
 display: flex;
 flex-wrap: wrap;
