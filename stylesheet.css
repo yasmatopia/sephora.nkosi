@@ -71,10 +71,6 @@ width: 100%;
   object-fit: cover;
 }
 
-h1 {
-  color: #333;
-}
-
-h2 {
-  text-align: center;
+.about {
+  color: purple;
 }
