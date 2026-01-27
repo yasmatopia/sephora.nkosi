@@ -8,6 +8,28 @@ body {
   background-color: #f4f4f4;
 }
 
+body.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* This targets the container inside the about page */
+.about-page .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-page .text-box {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid #333;
+  margin-bottom: 30px;
+}
 .big-title {
   height: 100vh;
   display: flex;
